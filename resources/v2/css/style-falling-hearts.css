@@ -28,6 +28,11 @@ iframe {
   width: 94%;
 }
 
+#google_map iframe {
+  height: 300px !important;
+  width: 94%;
+}
+
 .swirvey {
     margin: 1em auto;
     padding: .5em;

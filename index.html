@@ -9,7 +9,7 @@
 <title>Harshala weds Ashish</title>
 
 
-<meta name="description" content="Made in ❤ with Golu, Swati, Sakshi, Amol and Roshan!" />
+<meta name="description" content="Made in ❤ with Golu, Swati, Sakshi, Amol and Roshan." />
 
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -367,219 +367,21 @@
     <h1 class="couples-title text-center h1-responsive">Wedding Location</h1>
   </div>
 
-  <div class="google_map p-2" id="google_map">
+  <div class="p-2" id="google_map" >
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.155975214818!2d74.3179961142545!3d21.5407556254795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdf738441537d4b%3A0xa383ae47aa7a4984!2sPisavar%2C%20Gujarat%20394380%2C%20India!5e0!3m2!1sen!2sus!4v1615730030454!5m2!1sen!2sus" width="800" height="300" style="border:0;" allowfullscreen="" ></iframe>
   </div>
   
 
   <footer class="page-footer falling-hearts-pink font-small">
-    <div class="footer-copyright text-white text-center py-3">Made in ❤ with Golu, Swati, Sakshi, Amol and Roshan!
+    <div class="footer-copyright text-white text-center py-3">Made in ❤ with Golu, Swati, Sakshi, Amol and Roshan.
     </div>
   </footer>
 
   
-  <!-- Google maps script -->
-  <script>
-    function initMap() {
-      var uluru = {
-        lat: Number('21.536950'),
-        lng: Number('74.034190')
-      };
-      var map = new google.maps.Map(document.getElementById('google_map'), {
-        zoom: 18,
-        center: uluru,
-        mapTypeControl: false,
-        zoomControl: false,
-        streetViewControl: false,
-        styles: [
-          {
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#242f3e"
-              }
-            ]
-          },
-          {
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#746855"
-              }
-            ]
-          },
-          {
-            "elementType": "labels.text.stroke",
-            "stylers": [
-              {
-                "color": "#242f3e"
-              }
-            ]
-          },
-          {
-            "featureType": "administrative.locality",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#d59563"
-              }
-            ]
-          },
-          {
-            "featureType": "poi",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#d59563"
-              }
-            ]
-          },
-          {
-            "featureType": "poi.park",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#263c3f"
-              }
-            ]
-          },
-          {
-            "featureType": "poi.park",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#6b9a76"
-              }
-            ]
-          },
-          {
-            "featureType": "road",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#38414e"
-              }
-            ]
-          },
-          {
-            "featureType": "road",
-            "elementType": "geometry.stroke",
-            "stylers": [
-              {
-                "color": "#212a37"
-              }
-            ]
-          },
-          {
-            "featureType": "road",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#9ca5b3"
-              }
-            ]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#746855"
-              }
-            ]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "geometry.stroke",
-            "stylers": [
-              {
-                "color": "#1f2835"
-              }
-            ]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#f3d19c"
-              }
-            ]
-          },
-          {
-            "featureType": "transit",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#2f3948"
-              }
-            ]
-          },
-          {
-            "featureType": "transit.station",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#d59563"
-              }
-            ]
-          },
-          {
-            "featureType": "water",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#17263c"
-              }
-            ]
-          },
-          {
-            "featureType": "water",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#515c6d"
-              }
-            ]
-          },
-          {
-            "featureType": "water",
-            "elementType": "labels.text.stroke",
-            "stylers": [
-              {
-                "color": "#17263c"
-              }
-            ]
-          }
-        ]
-      });
+ 
+       
 
-      var marker = new google.maps.Marker({
-        icon: './resources/v2/img/map-marker.png',
-        position: uluru,
-        map: map,
-		animation: google.maps.Animation.DROP,
-		scaledSize: new google.maps.Size(50, 50)
-      });
-
-      google.maps.event.addListener(marker, 'click', function () {
-        var win = window.open(marker.map.mapUrl, '_blank');
-        win.focus();
-      });   
-
-    }
-  </script>
-  
-
-  
-    
-
-    <!-- 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeliJYHvYOeYDInvhRpXa7r08MSPVH8hk&callback=initMap"> </script>
-     -->
-
-    
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1y4Cv5Sj-EWAhFaWzTsQ2_cAjU2-fF1w&amp;callback=initMap"> </script>
-    
+   
     
     <script type="text/javascript" src="./cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
